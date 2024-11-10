@@ -1,3 +1,101 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    * {
+        @apply p-0 border-0 m-0;
+    }
+}
+
+@layer components {
+    .container {
+        @apply max-w-2xl bg-white p-6 m-auto flex flex-col items-center gap-5 rounded;
+    }
+
+    .container input {
+        @apply common-font-size leading-3 px-4 py-2 border-2 border-purple-800 rounded my-2 self-stretch;
+    }
+
+    .container button {
+        @apply common-font-size bg-purple-900 text-white p-4 rounded self-stretch transition duration-200;
+    }
+
+    .container button:hover {
+        @apply scale-[1.025] shadow-[#0000008e] shadow-xl;
+    }
+
+    @media (max-width: 1200px) {
+        .container {
+            @apply max-w-xl gap-3.5;
+        }
+
+        .container input {
+            @apply px-3 py-1.5;
+        }
+    
+        .container button {
+            @apply p-3;
+        }
+    }
+
+    @media (max-width: 768px) {
+        .container {
+            @apply min-w-96 w-[60%] gap-2;
+        }
+
+        .container input {
+            @apply py-1.5;
+        }
+
+        .container button {
+            @apply p-2;
+        }
+    }
+
+    @media (max-width: 450px) {
+        .container {
+            @apply min-w-80 fixed top-60 gap-1.5;
+        }
+    }
+}
+
+@layer utilities {
+    .heading-size {
+        @apply text-5xl;
+    }
+
+    .common-font-size {
+        @apply text-3xl;
+    }
+
+    @media (max-width: 1200px) {
+        .heading-size {
+            @apply text-4xl;
+        }
+
+        .common-font-size {
+            @apply text-2xl;
+        }
+    }
+
+    @media (max-width: 768px) {
+        .heading-size {
+            @apply text-3xl;
+        }
+
+        .common-font-size {
+            @apply text-xl;
+        }
+    }
+
+    @media (max-width: 450px) {
+        .heading-size {
+            @apply text-2xl;
+        }
+
+        .common-font-size {
+            @apply text-base;
+        }
+    }
+}
