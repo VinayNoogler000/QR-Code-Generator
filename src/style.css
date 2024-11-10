@@ -14,11 +14,11 @@
     }
 
     .container input {
-        @apply common-font-size leading-3 px-4 py-2 border-2 border-purple-800 rounded my-2 self-stretch;
+        @apply common-font leading-3 px-4 py-2 border-2 border-purple-800 rounded my-2 self-stretch;
     }
 
     .container button {
-        @apply common-font-size bg-purple-900 text-white p-4 rounded self-stretch transition duration-200;
+        @apply common-font bg-purple-900 text-white p-4 rounded self-stretch transition duration-200;
     }
 
     .container button:hover {
@@ -61,40 +61,40 @@
 }
 
 @layer utilities {
-    .heading-size {
-        @apply text-5xl;
+    .heading-font {
+        @apply text-5xl font-semibold;
     }
 
-    .common-font-size {
+    .common-font {
         @apply text-3xl;
     }
 
     @media (max-width: 1200px) {
-        .heading-size {
+        .heading-font {
             @apply text-4xl;
         }
 
-        .common-font-size {
+        .common-font {
             @apply text-2xl;
         }
     }
 
     @media (max-width: 768px) {
-        .heading-size {
+        .heading-font {
             @apply text-3xl;
         }
 
-        .common-font-size {
+        .common-font {
             @apply text-xl;
         }
     }
 
     @media (max-width: 450px) {
-        .heading-size {
+        .heading-font {
             @apply text-2xl;
         }
 
-        .common-font-size {
+        .common-font {
             @apply text-base;
         }
     }
