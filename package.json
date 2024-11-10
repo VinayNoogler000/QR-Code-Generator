@@ -1,0 +1,30 @@
+{
+  "name": "qr-code-generator",
+  "version": "1.0.0",
+  "description": "A website to generate QR Code for any text you want.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VinayNoogler000/QR-Code-Generator.git"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "tailwind",
+    "js",
+    "qr-code",
+    "generator"
+  ],
+  "author": "Vinay Tambey",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/VinayNoogler000/QR-Code-Generator/issues"
+  },
+  "homepage": "https://github.com/VinayNoogler000/QR-Code-Generator#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.4.14"
+  }
+}
