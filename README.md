@@ -12,7 +12,7 @@ A website where you can generate QR Code for any text you want. Just enter the t
 
 ## 🌟 Features
 
-- 
+- Project in Development, not finished yet!
 
 
 ## 🚀 Live Demo
@@ -33,7 +33,7 @@ Check out the live demo: [Not Deployed Yet]()
 
 
 ## 📚Learnings
-
+Project in Development, not finished yet!
 
 
 ## 📋 Prerequisites
