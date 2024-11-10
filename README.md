@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/VinayNoogler000/QR-Code-Generator/blob/main/LICENSE.txt)
 [![GitHub issues](https://img.shields.io/github/issues/VinayNoogler000/QR-Code-Generator)](https://github.com/VinayNoogler000/QR-Code-Generator/issues)
-[![GitHub stars](https://img.shields.io/github/stars/VinayNoogler000/QR-Code-Generator)](https://github.com/VinayNoogler000/Color-Palette-Generator/stargazers)
+[![GitHub stars](https://img.shields.io/github/stars/VinayNoogler000/QR-Code-Generator)](https://github.com/VinayNoogler000/QR-Code-Generator/stargazers)
 [![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)](https://github.com/VinayNoogler000/QR-Code-Generator/blob/main/src/index.html)
 [![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://github.com/VinayNoogler000/QR-Code-Generator/blob/main/src/style.css)
 [![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)](https://github.com/VinayNoogler000/QR-Code-Generator/blob/main/src/app.js)
@@ -32,7 +32,7 @@ Check out the live demo: [Not Deployed Yet]()
 - **JavaScript (ES6+)**: Modern JavaScript for handling the logic and interactivity of the application.
 
 
-## Learnings
+## 📚Learnings
 
 
 
@@ -107,11 +107,11 @@ This project is licensed under the MIT License - see the [LICENSE](https://githu
 - [Tailwind CSS](https://tailwindcss.com/) for the styling framework.
 
 
-## Open for Career Opportunities
+## 💼 Open for Career Opportunities
 I'm currently open to new career opportunities, specifically in frontend web development roles. If you're interested in collaborating or have any job openings, please feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/vinaytambey/), or [Send an Email](mailto:vinaytambey000@gmail.com).
 
 
-## What My Daily Life Looks Like?
+## 🗓️ What My Daily Life Looks Like?
 As of now (latest version of this README file), I'm building Projects using Frontend Web Devleopment technologies to strengthen my fundamentals, also, learning Backend Web Development. 
 This project/website is my 7th JavaScript project, more three projects are left (means, total 10 projects), in JS. 
 After, that I will be building atleast 3-5 major Projects using React.js framework with Redux.js library, while learning Backend Web Development.
