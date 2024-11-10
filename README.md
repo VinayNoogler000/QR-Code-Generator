@@ -1,4 +1,4 @@
-# 🎨 Color Palette Generator (In Development Stage)
+# QR-Code Generator (In Development Stage)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/VinayNoogler000/QR-Code-Generator/blob/main/LICENSE.txt)
 [![GitHub issues](https://img.shields.io/github/issues/VinayNoogler000/QR-Code-Generator)](https://github.com/VinayNoogler000/QR-Code-Generator/issues)
