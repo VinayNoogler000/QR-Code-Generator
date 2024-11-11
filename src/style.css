@@ -16,18 +16,22 @@
 
 @layer components {
     .container {
-        @apply max-w-2xl bg-white p-6 m-auto flex flex-col items-center gap-5 rounded;
+        @apply max-w-2xl bg-white p-6 m-auto flex-column gap-5 rounded;
     }
 
-    .container input {
-        @apply common-font leading-3 px-4 py-2 border-2 border-purple-800 rounded my-2 self-stretch;
+    form {
+        @apply w-full flex-column gap-2;
     }
 
-    .container button {
+    form input {
+        @apply common-font leading-3 px-4 py-3 border-2 border-purple-800 rounded my-2 self-stretch;
+    }
+
+    form button {
         @apply common-font bg-purple-900 text-white p-4 rounded self-stretch transition duration-200;
     }
 
-    .container button:hover {
+    form button:hover {
         @apply scale-[1.025] shadow-[#0000008e] shadow-xl;
     }
 
@@ -36,11 +40,11 @@
             @apply max-w-xl gap-3.5;
         }
 
-        .container input {
-            @apply px-3 py-1.5;
+        form input {
+            @apply px-3 py-2;
         }
     
-        .container button {
+        form button {
             @apply p-3;
         }
     }
@@ -50,11 +54,15 @@
             @apply min-w-96 w-[60%] gap-2;
         }
 
-        .container input {
+        form {
+            @apply gap-1.5;
+        }
+
+        form input {
             @apply py-1.5;
         }
 
-        .container button {
+        form button {
             @apply p-2;
         }
     }
@@ -63,10 +71,18 @@
         .container {
             @apply min-w-80 fixed top-60 gap-1.5;
         }
+
+        form {
+            @apply gap-1;
+        }
     }
 }
 
 @layer utilities {
+    .flex-column {
+        @apply flex flex-col items-center;
+    }
+
     .heading-font {
         @apply text-5xl font-semibold;
     }
