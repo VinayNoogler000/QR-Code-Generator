@@ -16,15 +16,19 @@
 
 @layer components {
     .container {
-        @apply max-w-2xl bg-white p-6 m-auto flex-column gap-5 rounded;
+        @apply max-w-2xl bg-white p-6 m-auto flex-column gap-7 rounded;
+    }
+
+    .title-grp { /*containing both title <h1> and sub-title <p>*/
+        @apply w-full flex-column gap-3;
     }
 
     form {
-        @apply w-full flex-column gap-2;
+        @apply w-full flex-column gap-3;
     }
 
     form input {
-        @apply common-font leading-3 px-4 py-3 border-2 border-purple-800 rounded my-2 self-stretch;
+        @apply common-font leading-3 px-4 py-3 border-2 border-purple-800 rounded self-stretch;
     }
 
     form button {
@@ -35,9 +39,21 @@
         @apply scale-[1.025] shadow-[#0000008e] shadow-xl;
     }
 
+    .qr-code-container {
+        @apply hidden w-full border-2 border-purple-800 rounded flex justify-center items-center;
+    }
+
+    .qr-code-container img {
+        @apply max-w-[70%];
+    }
+
     @media (max-width: 1200px) {
         .container {
-            @apply max-w-xl gap-3.5;
+            @apply max-w-xl gap-6;
+        }
+
+        .title-grp {
+            @apply gap-1;
         }
 
         form input {
@@ -51,11 +67,15 @@
 
     @media (max-width: 768px) {
         .container {
-            @apply min-w-96 w-[60%] gap-2;
+            @apply min-w-96 w-[60%] gap-5;
+        }
+
+        .title-grp {
+            @apply gap-0.5;
         }
 
         form {
-            @apply gap-1.5;
+            @apply gap-2;
         }
 
         form input {
@@ -69,11 +89,15 @@
 
     @media (max-width: 450px) {
         .container {
-            @apply min-w-80 fixed top-60 gap-1.5;
+            @apply min-w-80 fixed top-60 gap-4;
+        }
+
+        .title-grp {
+            @apply gap-0;
         }
 
         form {
-            @apply gap-1;
+            @apply gap-2;
         }
     }
 }
@@ -84,7 +108,7 @@
     }
 
     .heading-font {
-        @apply text-5xl font-semibold;
+        @apply text-5xl font-semibold leading-10;
     }
 
     .common-font {

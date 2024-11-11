@@ -13,13 +13,19 @@
         <main class="w-full h-screen bg-purple-800 grid place-items-center">
             
             <div class="container">
-                <h1 class="heading-font">QR Code Generator</h1>
-                <p class="common-font">Enter Text to Create QR Code</p>
+                <div class="title-grp">
+                    <h1 class="heading-font">QR Code Generator</h1>
+                    <p class="common-font">Enter Text to Create QR Code</p>
+                </div>
                 
                 <form>
                     <input type="text" placeholder="Enter Text" name="text" />
                     <button>Generate QR Code</button>
                 </form>
+
+                <div class="qr-code-container">
+                    <img src="../assets/qr.webp" alt="QR-Code">
+                </div>
             </div>
 
         </main>
