@@ -40,7 +40,7 @@
     }
 
     .qr-code-container {
-        @apply hidden w-full border-2 border-purple-800 rounded flex justify-center items-center;
+        @apply w-full py-8 border-2 border-purple-800 rounded flex justify-center items-center;
     }
 
     .qr-code-container img {

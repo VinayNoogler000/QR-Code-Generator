@@ -7,6 +7,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <title>QR Code Generator | Vinay Tambey</title>
         <link rel="stylesheet" href="../dist/output_v1.css"/>
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"/>
     </head>
 
     <body>
@@ -18,16 +19,18 @@
                     <p class="common-font">Enter Text to Create QR Code</p>
                 </div>
                 
-                <form>
-                    <input type="text" placeholder="Enter Text" name="text" />
+                <form id="qrForm">
+                    <input type="text" placeholder="Enter Text" name="qrText" />
                     <button>Generate QR Code</button>
                 </form>
 
-                <div class="qr-code-container">
-                    <img src="../assets/qr.webp" alt="QR-Code">
+                <div class="qr-code-container hidden">
+                    <img id="qrImg" src="" alt="QR-Code">
                 </div>
             </div>
-
         </main>
+
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+        <script src="./app.js"></script>
     </body>
 </html>
