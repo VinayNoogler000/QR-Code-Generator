@@ -40,11 +40,17 @@
     }
 
     .qr-code-container {
-        @apply w-full py-8 border-2 border-purple-800 rounded flex justify-center items-center;
+        @apply opacity-0 w-full h-0 border-2 border-solid border-purple-800 rounded flex justify-center items-center;
+        transition: opacity 0.3s ease-in-out, height 0.3s ease;
     }
 
     .qr-code-container img {
-        @apply max-w-[70%];
+        @apply w-[70%] max-h-full;
+    }
+
+    .qr-code-container.show {
+        @apply opacity-100 h-fit py-6;
+        transition: opacity 0.3s ease-in-out, height 0.3s ease;
     }
 
     @media (max-width: 1200px) {
