@@ -1,4 +1,4 @@
-# QR-Code Generator (In Development Stage)
+# 🔳 QR-Code Generator (In Development Stage)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/VinayNoogler000/QR-Code-Generator/blob/main/LICENSE.txt)
 [![GitHub issues](https://img.shields.io/github/issues/VinayNoogler000/QR-Code-Generator)](https://github.com/VinayNoogler000/QR-Code-Generator/issues)
@@ -7,22 +7,28 @@
 [![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://github.com/VinayNoogler000/QR-Code-Generator/blob/main/src/style.css)
 [![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)](https://github.com/VinayNoogler000/QR-Code-Generator/blob/main/src/app.js)
 
-A website where you can generate QR Code for any text you want. Just enter the text in the input field, and click on generate to generate a fully functional QR Code, which you can scan to get the input text.
+
+## 🌟 Project Overview
+
+A simple, responsive web application that allows users to generate QR codes for any text input instantly. Built with vanilla JavaScript, HTML, and Tailwind CSS, this project provides a clean and intuitive interface for creating QR codes on the fly.
 
 
-## 🌟 Features
+## 🚀 Features
 
-- Project in Development, not finished yet!
+- **Quick QR Code Generation**: Enter any text and generate a QR code within seconds
+- **Responsive Design**: Seamless experience across all device sizes
+- **User-Friendly Interface**: Minimal, clean UI with smooth interactions
+- **Toast Notifications**: Informative feedback for user actions
 
 
-## 🚀 Live Demo
+## 🌐 Live Demo
 
-Check out the live demo: [Not Deployed Yet]()
+Check out the live demo: [QR Code Generator](https://qr-code-generator-by-vt.b-cdn.net/)
 
 
 ## 📸 Screenshots
 
-[![QR-Code Generator Banner](image-link)](deployed-link)
+[![QR-Code Generator Banner](https://i.postimg.cc/WbrYytSM/QR-Code-Generator.png)](https://qr-code-generator-by-vt.b-cdn.net/)
 
 
 ## 🛠️ Technologies Used
@@ -30,10 +36,18 @@ Check out the live demo: [Not Deployed Yet]()
 - **HTML5**: Provides the structure and content of the web page.
 - **Tailwind CSS**: A utility-first CSS framework used for rapid UI development and styling.
 - **JavaScript (ES6+)**: Modern JavaScript for handling the logic and interactivity of the application.
+- **QR Code API**: For generating QR Code graphics.
+- **Toastify.js**: A lightweight and customizable toast notification library.
 
 
 ## 📚Learnings
-Project in Development, not finished yet!
+
+During the development of this project, I gained valuable insights:
+
+1. **Form Data Handling**: Learned to use the `FormData` object for efficiently capturing form input values
+2. **URL Encoding**: Mastered `encodeURIComponent()` for safely handling special characters in URLs
+3. **Dynamic Image Loading**: Discovered how to directly fetch and display images from APIs
+4. **Event Handling**: Implemented the load event for precise image loading control
 
 
 ## 📋 Prerequisites
@@ -41,6 +55,23 @@ Project in Development, not finished yet!
 - Modern web browser (Chrome, Firefox, Safari, Edge)
 - Node.js and npm (for local development)
 - Basic understanding of HTML, CSS, and JavaScript
+
+
+## 🤔 Seeking Feedback & Improvements
+I'm actively seeking feedback to enhance this project! 🌱
+
+Areas for potential improvement:
+
+* Error handling enhancements
+* Additional QR code customization options
+* Support for generating QR codes from URLs, files, or contact information
+* Dark mode implementation
+
+
+## 🐛 Found a Bug? Have a Feature Suggestion?
+
+For bugs, please open an issue with a clear description and steps to reproduce. Your input helps make this project better for everyone!
+And for implementing a feature, open an issue or submit a pull request!
 
 
 ## 🤝 Contributing
@@ -53,11 +84,6 @@ Contributions are welcome! Here's how you can help:
 3. Add and commit your changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push changes to the branch of your forked repository (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request in the main repository.
-
-
-## 🐛 Bug Reporting
-
-Found a bug? Please open an issue with a clear description and steps to reproduce. Your input helps make this project better for everyone!
 
 
 ## ⚙️ Code Architecture
@@ -97,6 +123,22 @@ project-root/
 5. Open `index.html` in your preferred browser & see the project working live.
 
 
+## 🎯 Career Opportunities
+
+### Open to Web Development Roles!
+
+* 💻 Looking for Internships
+* 👨‍💻 Seeking Full-time SDE Positions
+* 📍 Specialization: Web Development (Frontend or Full-Stack)
+
+
+## 🗓️ What My Daily Life Looks Like?
+As of now (latest version of this README file), I'm building Projects using Frontend Web Devleopment technologies to strengthen my fundamentals, also, learning Backend Web Development. 
+This project/website is my 7th JavaScript project, more three projects are left (means, total 10 projects), in JS. 
+After, that I will be building atleast 3-5 major Projects using React.js framework with Redux.js library, while learning Backend Web Development.
+At last, after Completing Frontend Development Projects, and Learning Backend Development, I'll be making atleast 3 Major Full-Stack Projects, using MERN tech-stack. 
+
+
 ## 📝 License
 
 This project is licensed under the MIT License - see the [LICENSE](https://github.com/VinayNoogler000/QR-Code-Generator/blob/main/LICENSE.txt) file for details.
@@ -105,17 +147,8 @@ This project is licensed under the MIT License - see the [LICENSE](https://githu
 ## 🙏 Acknowledgments
 
 - [Tailwind CSS](https://tailwindcss.com/) for the styling framework.
-
-
-## 💼 Open for Career Opportunities
-I'm currently open to new career opportunities, specifically in frontend web development roles. If you're interested in collaborating or have any job openings, please feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/vinaytambey/), or [Send an Email](mailto:vinaytambey000@gmail.com).
-
-
-## 🗓️ What My Daily Life Looks Like?
-As of now (latest version of this README file), I'm building Projects using Frontend Web Devleopment technologies to strengthen my fundamentals, also, learning Backend Web Development. 
-This project/website is my 7th JavaScript project, more three projects are left (means, total 10 projects), in JS. 
-After, that I will be building atleast 3-5 major Projects using React.js framework with Redux.js library, while learning Backend Web Development.
-At last, after Completing Frontend Development Projects, and Learning Backend Development, I'll be making atleast 3 Major Full-Stack Projects, using MERN tech-stack. 
+- [GOQR.me API](https://goqr.me/api/) for the free API to generate QR Codes for text. 
+- [Toastify JS](https://www.npmjs.com/package/toastify-js) for the feedback system, in the form of notifications.
 
 
 ## 📞 Contact Developer & Owner
