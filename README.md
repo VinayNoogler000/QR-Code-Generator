@@ -23,7 +23,7 @@ A simple, responsive web application that allows users to generate QR codes for 
 
 ## 🌐 Live Demo
 
-Check out the live demo: [QR Code Generator](https://qr-code-generator-by-vt.b-cdn.net/)
+Check out the live demo: [QR Code Generator](https://qr-code-generator-vt.vercel.app/)
 
 
 ## 📸 Screenshots
